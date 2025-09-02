@@ -1,4 +1,4 @@
-const resultEl = document.getElementById('result');
+   const resultEl = document.getElementById('result');
 const lengthEl = document.getElementById('length'); 
 const upperEl = document.getElementById('uppercase');
 const lowerEl = document.getElementById('lowercase');
@@ -72,4 +72,3 @@ function getRandomSymbol(){
     const symbols = '!@#$%^&*(){}[]=<>/,.';
     return symbols[Math.floor(Math.random() * symbols.length)];
 }
-
